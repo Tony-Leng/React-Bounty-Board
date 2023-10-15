@@ -2,7 +2,7 @@
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <div className="justify-center mb-6">KEYWORDS SMASH BROS. BOUNTY BOARD</div>
   )
 }
 

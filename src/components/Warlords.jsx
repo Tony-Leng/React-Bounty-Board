@@ -1,8 +1,53 @@
 // import React from 'react'
+import Chopper from "../assets/chopper.png";
+import Edward from "../assets/edward_newgate.png";
+import Nami from "../assets/nami.png";
+import Nico from "../assets/nico_robin.png";
+import Zoro from "../assets/roronoa_zoro.png";
+import Sanji from "../assets/sanji.png";
+import Usopp from "../assets/usopp.png";
 
 const Warlords = () => {
-  return (
-    <div>Warlords</div>
+  const currentWarlords = [
+    {
+        id:1,
+        image: Chopper
+    },
+    {
+        id:2,
+        image: Edward
+    },
+    {
+        id:3,
+        image: Nami
+    },
+    {
+        id:4,
+        image: Nico
+    },
+    {
+        id:5,
+        image: Zoro
+    },
+    {
+        id:6,
+        image: Sanji
+    },
+    {
+        id:7,
+        image: Usopp
+    },
+  ]
+  
+    return (
+        <section>
+            <h1 className="mb-4">WARLORDS</h1>
+            <div>
+                {currentWarlords.map((warlord)=> {
+                    return <img key={warlord.id} src={warlord.image} alt="" />
+                })}
+            </div>
+        </section>
   )
 }
 
