@@ -4,6 +4,7 @@
   padding: 2rem;
   text-align: center;
   background-image: url("../src/assets/background.jpg");
+  /* filter: brightness(80%); */
   height: 100%;
   width: 100%;
   font-family:"Pirata One";
