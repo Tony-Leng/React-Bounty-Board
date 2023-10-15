@@ -1,4 +1,3 @@
-// import React from 'react'
 import Luffy from "../assets/luffy.png";
 import Shanks from "../assets/shanks.png";
 import Charlotte from "../assets/charlotte_linlin.png";
@@ -25,11 +24,11 @@ const Emperors = () => {
     ]
 
   return (
-    <section>
+    <section className="justify-items-center mb-6">
         <h1 className="mb-4">EMPERORS</h1>
-        <div className="flex">
+        <div className="flex gap-x-2">
             {currentEmperors.map((emperor) => {
-                return <img className="h-[200px]" key={emperor.id} src={emperor.image} alt="" />
+                return <img className="h-[250px]" key={emperor.id} src={emperor.image} alt="" />
     }       )}
         </div>
     </section>

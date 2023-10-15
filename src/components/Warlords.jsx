@@ -1,4 +1,3 @@
-// import React from 'react'
 import Chopper from "../assets/chopper.png";
 import Edward from "../assets/edward_newgate.png";
 import Nami from "../assets/nami.png";
@@ -40,11 +39,11 @@ const Warlords = () => {
   ]
   
     return (
-        <section>
+        <section className="justify-items-center mb-6">
             <h1 className="mb-4">WARLORDS</h1>
-            <div>
+            <div className="flex gap-x-2">
                 {currentWarlords.map((warlord)=> {
-                    return <img key={warlord.id} src={warlord.image} alt="" />
+                    return <img className="h-[200px]" key={warlord.id} src={warlord.image} alt="" />
                 })}
             </div>
         </section>

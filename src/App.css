@@ -4,7 +4,7 @@
   padding: 2rem;
   text-align: center;
   background-image: url("../src/assets/background.jpg");
-  height: 100vh;
+  height: 100%;
   width: 100vw;
 }
 
