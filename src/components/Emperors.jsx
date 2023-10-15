@@ -24,9 +24,9 @@ const Emperors = () => {
     ]
 
   return (
-    <section className="justify-items-center mb-6">
-        <h1 className="mb-4">EMPERORS</h1>
-        <div className="flex gap-x-2">
+    <section className="grid justify-items-center mb-20">
+        <h1 className="text-white">EMPERORS</h1>
+        <div className="flex gap-x-4">
             {currentEmperors.map((emperor) => {
                 return <img className="h-[250px]" key={emperor.id} src={emperor.image} alt="" />
     }       )}

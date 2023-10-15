@@ -39,9 +39,9 @@ const Warlords = () => {
   ]
   
     return (
-        <section className="justify-items-center mb-6">
-            <h1 className="mb-4">WARLORDS</h1>
-            <div className="flex gap-x-2">
+        <section className="grid justify-items-center mb-20">
+            <h1 className="text-white">WARLORDS</h1>
+            <div className="flex gap-x-4">
                 {currentWarlords.map((warlord)=> {
                     return <img className="h-[200px]" key={warlord.id} src={warlord.image} alt="" />
                 })}

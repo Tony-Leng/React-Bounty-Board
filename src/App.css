@@ -5,7 +5,12 @@
   text-align: center;
   background-image: url("../src/assets/background.jpg");
   height: 100%;
-  width: 100vw;
+  width: 100%;
+  font-family:"Pirata One";
+}
+
+h1 {
+  font-size: 80px !important; /*remove important later*/
 }
 
 .logo {
