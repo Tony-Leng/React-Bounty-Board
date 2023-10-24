@@ -37,13 +37,13 @@ const Warlords = () => {
         image: Usopp
     },
   ]
-  
+
     return (
         <section className="grid justify-items-center mb-20">
             <h1 className="text-white">WARLORDS</h1>
             <div className="flex gap-x-4">
                 {currentWarlords.map((warlord)=> {
-                    return <img className="h-[200px] hover:scale-110 ease-in-out duration-300 cursor-pointer" key={warlord.id} src={warlord.image} alt="" />
+                    return <img className="h-[200px] hover:scale-110 ease-in-out duration-350 cursor-pointer" key={warlord.id} src={warlord.image} alt="" />
                 })}
             </div>
         </section>
