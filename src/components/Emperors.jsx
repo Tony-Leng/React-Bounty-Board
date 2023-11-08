@@ -28,7 +28,7 @@ const Emperors = () => {
         <h1 className="text-white">EMPERORS</h1>
         <div className="flex gap-x-4">
             {currentEmperors.map((emperor) => {
-                return <img className="h-[250px] hover:scale-110 ease-in-out duration-350 cursor-pointer" key={emperor.id} src={emperor.image} alt="" />
+                return <img className="h-[250px] hover:scale-110 ease-in-out duration-300 cursor-pointer" key={emperor.id} src={emperor.image} alt="" />
     }       )}
         </div>
     </section>
